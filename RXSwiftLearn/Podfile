@@ -1,0 +1,39 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'RXSwiftLearn' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for RXSwiftLearn
+
+  pod 'Hue'
+  
+  pod 'SnapKit'
+  pod 'Kingfisher'
+  pod 'Alamofire'
+  pod 'Moya'
+  pod 'SwiftyJSON'
+  pod 'KakaJSON'
+  pod 'MJRefresh'
+  pod 'IQKeyboardManagerSwift'
+
+  pod 'RxSwift'
+  pod 'RxDataSources'
+  pod 'RxCocoa'
+
+  pod 'SwiftMessages'               # 吐司
+  pod 'CYLTabBarController'         # 菜单栏目
+  pod 'RTRootNavigationController'  # 导航栏
+  pod 'NVActivityIndicatorView'     # 加载视图
+
+  target 'RXSwiftLearnTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'RXSwiftLearnUITests' do
+    # Pods for testing
+  end
+
+end
